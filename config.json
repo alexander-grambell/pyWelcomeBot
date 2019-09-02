@@ -1,32 +1,32 @@
 {
   "Discord": {
-    "token": "YOUR-BOT-USER-TOKEN",
+    "token": "NjE4MTU3ODcwMTQ3Njk4Njk4.XW1meQ.Q8vB3OTNu5NBgIeq3rQGoiNP98M",
     "server": {
       "YOUR-SERVER-NAME": {
-        "joinChannel": "CHANNEL-NAME",
+        "joinChannel": "general",
         "joinMessage": "Welcome to YOUR-SERVER-NAME <@{0}>!",
         "removeMessage": "**{0}** has left the server!",
-        "removeChannel": "CHANNEL-NAME"
+        "removeChannel": "general"
       },
       "ANOTHER-SERVER-NAME": {
-        "joinChannel": "CHANNEL-NAME",
+        "joinChannel": "general",
         "joinMessage": "Welcome to YOUR-SERVER-NAME <@{0}>!",
         "removeMessage": "**{0}** has left the server!",
-        "removeChannel": "CHANNEL-NAME"
+        "removeChannel": "general"
       }
     }
   },
   "tasks": {
     "online_report": {
       "refresh_url": "SOME-URL",
-      "refresh_interval": SOME-INTERVAL,
+      "refresh_interval": "SOME-INTERVAL",
       "report_url": "SOME-URL",
       "report_title": "REPORT-TITLE",
       "report_description": "REPORT-DESCRIPTION"
     },
     "discord_accounts": {
-      "target_start_time_hour": START-HOUR,
-      "target_start_time_minute": START-MINUTE,
+      "target_start_time_hour": "START-HOUR",
+      "target_start_time_minute": "START-MINUTE",
       "staging_url": "SOME-URL"
     },
     "account_linking": {
